@@ -1,6 +1,6 @@
 #!/bin/bash
 
-imgdir="/home/partimage"
+imgdir="/home/partimag"
 archdir="/home/backup"
 imgdisk="sda1"
 

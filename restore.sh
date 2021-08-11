@@ -29,13 +29,17 @@ cd $imgdir
 
 filename="$(find $archdir -type f -iname '*_Backup.tar.gz')"
 
+echo "Start uncompressing"
 tar -xzf "$filename"
 
 dirname="$(find $imgdir -type d -iname '*_img')"
 
+echo "Start clonezilla"
 /usr/sbin/ocs-sr -e1 auto -e2 -c -t -r -j2 -k -p true -f $imgdisk restoreparts $(basename -- "$dirname") $imgdisk
 
 rm -r $imgdir/*
+
+echo "Restore complete"
 
 exit:
 
