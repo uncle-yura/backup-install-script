@@ -28,6 +28,8 @@ fi
 jumpto exit
 
 start:
+mkdir -p $imgdir
+
 echo "Start clonezilla"
 /usr/sbin/ocs-sr -q2 -c -j2 -z1p -i 4096 -fsck-src-part -p true saveparts $(date +%Y%m%d)_img $imgdisk && echo "Clone complite" || jumpto failed
 

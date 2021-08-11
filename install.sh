@@ -28,3 +28,5 @@ sed -i "s/^\#*imgdisk=.*/imgdisk=\"$DISK\"/g" $archdir/restore.sh
 cp run-backup.desktop $desktopdir/run-backup.desktop
 cp run-restore.desktop $desktopdir/run-restore.desktop
 
+echo "Installation complete"
+
