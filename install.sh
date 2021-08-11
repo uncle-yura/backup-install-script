@@ -15,7 +15,7 @@ echo "Enter disk name for backup (Example: sda1):"
 read DISK
 
 archdir="/home/backup"
-desktopdir="/user/share/applications"
+desktopdir="/usr/share/applications"
 
 mkdir -p $archdir
 

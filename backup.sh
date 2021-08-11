@@ -54,4 +54,5 @@ failed:
 echo "Backup failed"
 
 exit:
+read -n 1 -s -r -p "Press any key to exit"
 

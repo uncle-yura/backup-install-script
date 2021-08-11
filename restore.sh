@@ -47,4 +47,5 @@ rm -r $imgdir/*
 echo "Restore complete"
 
 exit:
+read -n 1 -s -r -p "Press any key to exit"
 
