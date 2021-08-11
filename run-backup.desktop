@@ -1,0 +1,6 @@
+[Desktop Entry]
+Terminal=true
+Hidden=false
+Name=Run-Backup
+Type=Application
+Exec=sudo bash /home/backup/backup.sh

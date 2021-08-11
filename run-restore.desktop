@@ -1,0 +1,6 @@
+[Desktop Entry]
+Terminal=true
+Hidden=false
+Name=Run-Restore
+Type=Application
+Exec=sudo bash /home/backup/restore.sh
